@@ -21,7 +21,7 @@
         margin: 0;
         padding: 0;
       }
-      ```
+      
   * `header`
     * The background color is `#333333`.
   * `h1`

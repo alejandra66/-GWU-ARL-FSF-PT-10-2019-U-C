@@ -18,25 +18,60 @@ header {
 }
 
 section {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: powderblue;
 }
 
 #left {
+  float: left;
+  width: 33%;
+  color: white;
+  background: #666;
 }
 
 #middle {
+  float: left;
+  width: 34%;
+  color: white;
+  background: #888;
 }
 
 #right {
+  float: right;
+  width: 33%;
+  color: white;
+  background: #666
 }
 
 #full {
+   height: 300px;
+
 }
 
 #division {
+  float: center;
+  width: 100%;
+  background: #888
 }
 
 aside {
+  float: left;
+  margin: 20px;
+  width: 33%;
+  height: 200px;
+  color: white;
+  background: black;
 }
 
 footer {
+  padding: 20px;
+  clear: both;
+  color: white;
+  background: black;
+}
+
+#sectionSpace {
+  margin-bottom: 100px;
 }
