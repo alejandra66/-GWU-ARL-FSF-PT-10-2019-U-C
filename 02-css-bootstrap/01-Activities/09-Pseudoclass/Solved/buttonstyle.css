@@ -5,6 +5,7 @@
 /* Normal Element Rule */
 a {
   font-size: 64px;
+  color: orange
 }
 
 /* Hover Pseudo Class:
@@ -31,4 +32,9 @@ a:focus {
 */
 a:active {
   background-color: black;
+}
+
+
+#test2:hover {
+  background-color: blue;
 }

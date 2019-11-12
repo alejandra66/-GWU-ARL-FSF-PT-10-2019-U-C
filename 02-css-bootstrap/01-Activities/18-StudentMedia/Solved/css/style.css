@@ -54,6 +54,12 @@ body {
   background: #eee;
 }
 
+#box {
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+}
+
 @media screen and (max-width: 768px) {
   body {
     background-color: #333;
@@ -72,6 +78,12 @@ body {
 
   #sidebar {
     margin-top: 40px;
+  }
+
+  #box {
+    height: 600px;
+    width: 600px;
+    background-color: red;
   }
 }
 
