@@ -6,14 +6,12 @@
   </head>
   <body>
 
-    <h1>Car Adventures!</h1>
-    <h2>Type "h" to honk, "d" to drive to work, "w" to drive around the world, or "t" to get a tuneup.</h2>
-    <h2>See console for car stats.</h2>
-
     <script>
 
       // VARIABLES
       // ==========================================================================
+      var letter;
+
       var car = {
         make: "Honda",
         model: "Fit",
@@ -50,7 +48,6 @@
         }
       };
 
-
       // FUNCTIONS
       // ==============================================================================
 
@@ -67,36 +64,33 @@
       // MAIN PROCESS
       // ==============================================================================
 
-      // Captures keyboard input. Depending on the letter pressed it will "call" (execute) different functions.
-      document.onkeyup = function(event) {
-
-        // Captures the key press, converts it to lowercase, and saves it to a variable.
-        var letter = event.key.toLowerCase();
+      // A while loop makes more sense here than a for loop, because we don't know how long the user will want to play the game
+      // This loop will end when the user presses Cancel, thus setting the letter variable to "null"
+      while (letter !== null) {
+        // Prompt user to input a letter
+        letter = prompt("Type 'h' to honk, 'd' to drive to work, 'w' to drive around the world, or 't' to get a tuneup.");
 
         // If the letter is h, run the following functions/methods.
         if (letter === "h") {
           car.honk();
           reWriteStats();
         }
-
         // If the letter is d, run the following functions/methods.
-        if (letter === "d") {
+        else if (letter === "d" && car.isWorking) {
           car.driveToWork();
           reWriteStats();
         }
-
         // If the letter is w, run the following functions/methods.
-        if (letter === "w") {
+        else if (letter === "w" && car.isWorking) {
           car.driveAroundWorld();
           reWriteStats();
         }
-
         // If the letter is t, run the following functions/methods.
-        if (letter === "t") {
+        else if (letter === "t") {
           car.getTuneUp();
           reWriteStats();
         }
-      };
+      }
 
     </script>
 

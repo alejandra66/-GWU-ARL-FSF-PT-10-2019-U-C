@@ -1,6 +1,6 @@
 ### Rock Paper Scissors Pseudocode
 
-1. User chooses r, p, or s on keyboard representing rock, paper, or scissors.
+1. Prompt user to enter r, p, or s representing rock, paper, or scissors.
 
 2. Computer chooses a random value in a list of r, p, or s.
 
@@ -28,4 +28,4 @@
     
    * If user ties then we add one to their ties.
 
-5. The user then presses r, p, or s to play again.
+5. Prompt user to play again.
