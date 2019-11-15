@@ -5,18 +5,19 @@
     <title>Prompt Demo</title>
   </head>
   <body>
-    
-    <script type="text/javascript">
 
-    alert("We definitely rock!");
+    <script type="text/javascript">
+    var name = prompt("what's your Name")
+
+    alert("We definitely rock like " + name);
 
     // Notice that the confirm and prompt take in variables but the alert doesn't
-    var doYouRock = confirm("The question is, do *you* rock?");
-    var howMuchRock = prompt("How much do you rock?");
+    var doYouRock = confirm("Do you like to Party say's Peter");
+    var howMuchRock = prompt("On a scale of 1-10 how much do you like to Rock");
 
     // Alert the results
-    alert(doYouRock);
-    alert(howMuchRock);
+    alert("You said you like to Party, the survey says " + doYouRock);
+    alert("You rock " + howMuchRock);
 
     </script>
 
