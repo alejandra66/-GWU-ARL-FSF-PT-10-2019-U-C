@@ -29,3 +29,6 @@
    * If user ties then we add one to their ties.
 
 5. Prompt user to play again.
+
+
+var 
