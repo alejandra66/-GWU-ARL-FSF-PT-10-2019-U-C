@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic JavaScript Dump</title>
+</head>
+  <body>
+
+    <div id="empty-div"></div>
+    <div id="second-div"></div>
+    <div class="myclass"></div>
+
+    <!-- We now create a new JavaScript script. -->
+    <script type="text/javascript">
+
+      // Inside, we latch onto the "emptyDiv" using the JavaScript ".getElementById" selector.
+      var targetDiv = document.getElementById("empty-div");
+      var targetDiv2 = document.getElementById("second-div");
+   
+
+      // We then use the JavaScript method ".textContent" to change the content to "Hello friends!"
+      targetDiv.textContent = "Hello friends!";
+      targetDiv2.textContent = "Something new";
+    
+    </script>
+
+  </body>
+</html>
