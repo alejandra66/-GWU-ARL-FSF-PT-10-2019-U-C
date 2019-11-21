@@ -46,6 +46,10 @@
         pbjCounter++;
         alert("You've eaten " + pbjCounter + " PB&J sandwiches");
 
+        if(pbjCounter >= 3){
+          alert("Stop Eating")
+        }
+
       });
 
       $("#grilledcheese").on("click", function() {

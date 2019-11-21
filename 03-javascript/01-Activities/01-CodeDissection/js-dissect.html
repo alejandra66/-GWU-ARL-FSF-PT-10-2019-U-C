@@ -7,8 +7,6 @@
     </title>
   </head>
   <body>
-
-    
     <script type="text/javascript">
 
       var userName = prompt("What's your name?");
@@ -47,7 +45,8 @@
         alert("My pet is older than 5 years old");
       }
 
-      alert("Welcome to our page " + userName);
+      // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
+      document.write("Welcome to our page " + userName);
 
       var catAge = prompt("How old is your cat?");
 

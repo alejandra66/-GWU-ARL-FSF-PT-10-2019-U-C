@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Basic JavaScript Dump</title>
 </head>
-  <body>
 
-    <div id="empty-div"></div>
+<body>
 
-    <script type="text/javascript">
+  <div id="empty-div"></div>
 
-      var targetDiv = document.getElementById("empty-div");
+  <script type="text/javascript">
 
-      targetDiv.textContent = "Hello friends!";
+    var targetDiv = document.getElementById("empty-div");
 
-      // In this example, we instead create a new div called "newDiv".
-      var newDiv = document.createElement("div");
+    targetDiv.textContent = "Hello friends!";
 
-      // We then give this newDiv the text "A pleasure to meet you!".
-      newDiv.textContent = "A pleasure to meet you!";
+    // In this example, we instead create a new div called "newDiv".
+    var newDiv = document.createElement("div");
 
-      // Now we use the ".appendChild" method to combine the two divs together on the page.
-      targetDiv.appendChild(newDiv);
+    // We then give this newDiv the text "A pleasure to meet you!".
+    newDiv.textContent = "A pleasure to meet you Greetings to all!";
 
-    </script>
+    // Now we use the ".appendChild" method to combine the two divs together on the page.
+    targetDiv.appendChild(newDiv);
 
-  </body>
+    var greeting = document.createElement("h1")
+    greeting.textContent = "HELLO World"
+    targetDiv.appendChild(greeting)
+
+  </script>
+
+</body>
+
 </html>
