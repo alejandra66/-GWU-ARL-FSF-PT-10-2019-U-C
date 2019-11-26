@@ -16,7 +16,7 @@ function displayMessage(type, message) {
 
 signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
-  
+
   // create user object from submission
   var user = {
     firstName: firstNameInput.value.trim(),
@@ -26,7 +26,7 @@ signUpButton.addEventListener("click", function(event) {
   };
 
   console.log(user);
-  
+
   // validate the fields
   if (user.firstName === "") {
     displayMessage("error", "First name cannot be blank");
@@ -41,9 +41,13 @@ signUpButton.addEventListener("click", function(event) {
 
     // set new submission
     localStorage.setItem("user", JSON.stringify(user));
-    
+
+    localStorage.s
+
+
     // get most recent submission
     var lastUser = JSON.parse(localStorage.getItem("user"));
+    console.log(lastUser)
     userFirstNameSpan.textContent = lastUser.firstName;
     userLastNameSpan.textContent = lastUser.lastName;
     userEmailSpan.textContent = lastUser.email;

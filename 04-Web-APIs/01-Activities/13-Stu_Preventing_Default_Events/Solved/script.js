@@ -27,7 +27,7 @@ function splitTotal() {
 
   var total = document.querySelector("#new-total").textContent;
   var numPeople = document.querySelector("#num-people").value;
-  
+
   var newTotal = (total / numPeople).toFixed(2);
   document.querySelector("#split-total").textContent = newTotal;
 }

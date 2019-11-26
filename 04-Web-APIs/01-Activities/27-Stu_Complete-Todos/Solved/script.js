@@ -56,6 +56,7 @@ todoList.addEventListener("click", function(event) {
     // Get its data-index value and remove the todo element from the list
     var index = element.parentElement.getAttribute("data-index");
     todos.splice(index, 1);
+    
 
     // Re-render the list
     renderTodos();
