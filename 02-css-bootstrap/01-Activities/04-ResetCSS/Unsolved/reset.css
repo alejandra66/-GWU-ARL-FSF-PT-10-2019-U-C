@@ -7,8 +7,13 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
+<<<<<<< HEAD
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
+=======
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+>>>>>>> 9aa2c975f17b449710dabd92045d390fcc6aacc1
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +24,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+<<<<<<< HEAD
 article, aside, details, figcaption, figure, 
+=======
+article, aside, details, figcaption, figure,
+>>>>>>> 9aa2c975f17b449710dabd92045d390fcc6aacc1
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -41,4 +50,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9aa2c975f17b449710dabd92045d390fcc6aacc1

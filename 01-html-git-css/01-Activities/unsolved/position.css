@@ -1,0 +1,40 @@
+body{
+    font-size:24px;
+    color: #333;
+}
+
+#fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    padding:40px;
+    background:#eee;
+}
+
+
+#relative {
+    position: relative;
+    height:200px;
+    padding: 20px;
+    text-align: center;
+    background: #eee;
+
+}
+
+#absolute{
+
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: #999;
+
+}
+
+.wrapper{
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}

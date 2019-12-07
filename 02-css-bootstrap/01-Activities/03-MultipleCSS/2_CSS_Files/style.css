@@ -28,6 +28,10 @@ header {
   background: #d21034;
 }
 
+a {
+  color: green;
+}
+
 h1 {
   /* Box-model */
   padding: 20px 0;

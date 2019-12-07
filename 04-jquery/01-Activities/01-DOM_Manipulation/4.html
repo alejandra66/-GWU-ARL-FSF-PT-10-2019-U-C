@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9aa2c975f17b449710dabd92045d390fcc6aacc1
 <head>
   <meta charset="UTF-8">
   <title>Basic JavaScript Dump</title>
 </head>
+<<<<<<< HEAD
   <body>
 
     <div id="empty-div"></div>
@@ -27,3 +32,34 @@
 
   </body>
 </html>
+=======
+
+<body>
+
+  <div id="empty-div"></div>
+
+  <script type="text/javascript">
+
+    var targetDiv = document.getElementById("empty-div");
+
+    targetDiv.textContent = "Hello friends!";
+
+    // In this example, we instead create a new div called "newDiv".
+    var newDiv = document.createElement("div");
+
+    // We then give this newDiv the text "A pleasure to meet you!".
+    newDiv.textContent = "A pleasure to meet you Greetings to all!";
+
+    // Now we use the ".appendChild" method to combine the two divs together on the page.
+    targetDiv.appendChild(newDiv);
+
+    var greeting = document.createElement("h1")
+    greeting.textContent = "HELLO World"
+    targetDiv.appendChild(greeting)
+
+  </script>
+
+</body>
+
+</html>
+>>>>>>> 9aa2c975f17b449710dabd92045d390fcc6aacc1
